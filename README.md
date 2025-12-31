@@ -3,6 +3,16 @@
 [![Test](https://github.com/dapi/form2telegram/actions/workflows/test.yml/badge.svg)](https://github.com/dapi/form2telegram/actions/workflows/test.yml)
 [![Release](https://github.com/dapi/form2telegram/actions/workflows/release.yml/badge.svg)](https://github.com/dapi/form2telegram/actions/workflows/release.yml)
 
+```mermaid
+flowchart LR
+    A[("📝 Яндекс.Формы")] -->|POST JSON| B["🔄 form2telegram"]
+    B -->|Telegram API| C[("💬 Telegram Chat")]
+
+    style A fill:#fc0,stroke:#333
+    style B fill:#4a9eff,stroke:#333,color:#fff
+    style C fill:#0088cc,stroke:#333,color:#fff
+```
+
 Webhook-мост для пересылки данных из Яндекс.Форм в Telegram.
 
 ## Быстрый старт
