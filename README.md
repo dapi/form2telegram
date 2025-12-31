@@ -7,7 +7,17 @@ Webhook-мост для пересылки данных из Яндекс.Фор
 
 ## Быстрый старт
 
-### Docker
+### Docker (готовый образ)
+
+```bash
+docker run -d \
+  -p 8080:8080 \
+  -e TELEGRAM_BOT_TOKEN=your_token \
+  -e TELEGRAM_CHAT_ID=your_chat_id \
+  ghcr.io/dapi/form2telegram:latest
+```
+
+### Docker Compose
 
 ```bash
 cp .env.example .env
