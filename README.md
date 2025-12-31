@@ -9,8 +9,8 @@
 
 ```mermaid
 flowchart LR
-    A[("📝 Яндекс.Формы")] -->|POST JSON| B["🔄 form2telegram"]
-    B -->|Telegram API| C[("💬 Telegram Chat")]
+    A[Яндекс.Формы] -->|POST JSON| B[form2telegram]
+    B -->|Telegram API| C[Telegram Chat]
 
     style A fill:#fc0,stroke:#333
     style B fill:#4a9eff,stroke:#333,color:#fff
