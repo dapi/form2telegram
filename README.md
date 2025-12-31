@@ -1,9 +1,5 @@
 # form2telegram
 
-<p align="center">
-  <img src="https://i.kym-cdn.com/entries/icons/original/000/028/596/dsmGaKWMeHXe9QuJtq_uj30PNfTGnMsRuHuo_MUzGCg.jpg" alt="Modern problems require modern solutions" width="400">
-</p>
-
 [![Test](https://github.com/dapi/form2telegram/actions/workflows/test.yml/badge.svg)](https://github.com/dapi/form2telegram/actions/workflows/test.yml)
 [![Release](https://github.com/dapi/form2telegram/actions/workflows/release.yml/badge.svg)](https://github.com/dapi/form2telegram/actions/workflows/release.yml)
 
