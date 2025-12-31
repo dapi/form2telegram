@@ -33,7 +33,7 @@ func main() {
 	webhookHandler := handler.NewWebhookHandler(tgClient)
 
 	mux := http.NewServeMux()
-	mux.Handle("/webhook", loggingMiddleware(webhookHandler))
+	mux.Handle("/yandex-form-webhook", loggingMiddleware(webhookHandler))
 	mux.HandleFunc("/health", handler.HealthHandler)
 
 	server := &http.Server{

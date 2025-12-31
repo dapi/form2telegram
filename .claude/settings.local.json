@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/danil/code/form2telegram log --oneline -10)",
+      "Bash(git -C /home/danil/code/form2telegram remote:*)",
+      "Bash(git -C /home/danil/code/form2telegram status)",
+      "Bash(git -C /home/danil/code/form2telegram config:*)",
+      "Bash(git -C /home/danil/code/form2telegram branch:*)",
+      "Bash(git -C /home/danil/code/form2telegram ls-files)",
+      "WebFetch(domain:github.com)",
+      "Skill(superpowers:test-driven-development)",
+      "Bash(go mod init:*)",
+      "Bash(mise exec:*)",
+      "Bash(mise list:*)",
+      "Bash(go version:*)",
+      "Bash(PATH=\"$HOME/.local/share/mise/installs/go/latest/bin:$PATH\" go version:*)",
+      "Bash(mise install:*)",
+      "Bash(find:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ]
+  }
+}

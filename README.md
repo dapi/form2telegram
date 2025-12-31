@@ -26,7 +26,7 @@ go run main.go
 
 ## API
 
-### POST /webhook
+### POST /yandex-form-webhook
 
 Принимает JSON от Яндекс.Форм:
 
@@ -47,7 +47,7 @@ Health-check эндпоинт.
 
 1. Создайте форму в Яндекс.Формах
 2. Перейдите в "Интеграции" → "Webhook"
-3. Укажите URL: `https://your-domain.com/webhook`
+3. Укажите URL: `https://your-domain.com/yandex-form-webhook`
 
 ## Переменные окружения
 

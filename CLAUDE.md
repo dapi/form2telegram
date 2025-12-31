@@ -37,14 +37,14 @@ docker run -p 8080:8080 --env-file .env form2telegram
 ```
 main.go                 # Точка входа: инициализация сервера и graceful shutdown
 internal/
-├── handler/           # HTTP-обработчики (POST /webhook, GET /health)
+├── handler/           # HTTP-обработчики (POST /yandex-form-webhook, GET /health)
 ├── telegram/          # Клиент Telegram Bot API
 └── formatter/         # Форматирование формы в Markdown-сообщение
 ```
 
 ### Поток данных
 
-1. Яндекс.Формы отправляет POST на `/webhook`
+1. Яндекс.Формы отправляет POST на `/yandex-form-webhook`
 2. `handler` парсит JSON и передаёт в `formatter`
 3. `formatter` преобразует данные формы в Markdown
 4. `telegram` клиент отправляет сообщение в чат
