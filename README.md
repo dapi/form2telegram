@@ -75,8 +75,14 @@ Health-check эндпоинт.
 ## Настройка Яндекс.Форм
 
 1. Создайте форму в Яндекс.Формах
-2. Перейдите в "Интеграции" → "Webhook"
-3. Укажите URL: `https://your-domain.com/yandex-form-webhook`
+2. Перейдите в «Интеграции» → «HTTP-запрос»
+3. Выберите «Запрос заданным методом», метод POST
+4. Укажите URL: `https://your-domain.com/yandex-form-webhook`
+5. В теле запроса укажите JSON с переменными формы
+
+Документация:
+- [Автоматические действия](https://yandex.ru/support/forms/notifications.html) — обзор интеграций
+- [HTTP-запросы](https://yandex.ru/support/forms/send-request.html) — настройка webhook и структура данных
 
 ## Переменные окружения
 
