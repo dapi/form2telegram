@@ -19,7 +19,10 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Skill(superpowers:brainstorming)"
+      "Skill(superpowers:brainstorming)",
+      "Bash(git -C /home/danil/code/form2telegram diff README.md)",
+      "Bash(git -C /home/danil/code/form2telegram add:*)",
+      "Bash(git -C /home/danil/code/form2telegram commit -m \"$\\(cat <<''EOF''\nAdd architecture diagram and ghcr.io instructions to README\n\n- Add Mermaid flowchart showing data flow\n- Add Docker run command for ghcr.io/dapi/form2telegram image\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }

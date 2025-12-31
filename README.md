@@ -1,5 +1,9 @@
 # form2telegram
 
+<p align="center">
+  <img src="https://i.imgflip.com/9g37ku.jpg" alt="Modern problems require modern solutions" width="400">
+</p>
+
 [![Test](https://github.com/dapi/form2telegram/actions/workflows/test.yml/badge.svg)](https://github.com/dapi/form2telegram/actions/workflows/test.yml)
 [![Release](https://github.com/dapi/form2telegram/actions/workflows/release.yml/badge.svg)](https://github.com/dapi/form2telegram/actions/workflows/release.yml)
 
